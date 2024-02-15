@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #logo{
+            color: aquamarine;
+            font-family:'monospace';
+            font-size: 40px;
+            margin-left: 12%;
+        }
+        .header{
+            display:flex;
+            justify-content: space-between;
+            margin-right: 70px;
+        }
+        a{
+            color:whitesmoke;
+            font-size:25px;
+            text-decoration: none;
+        }
+        li{
+            float: left;
+            list-style: none;
+            margin-right:40px;
+            padding-top: 14px;
+        }
+        a:hover{
+            color:rgb(248, 154, 47);
+            
+        }
+        h3{
+            color:yellow;
+            padding-top:120px;
+            padding-left:12%;
+            font-family: monospace;
+            font-size: 34px;
+        }
+        p{
+            font-family: monospace;
+            color: white;
+            padding-left: 12%;
+            font-size: 44px;
+        }
+        #name1{
+            color: yellow;
+        }
+        #name2{
+            color:yellow;
+            font-size: 44px;
+        }
+        #free{
+            font-size: 34px;
+            font-family: cursive;
+        }
+        .main{
+            display:grid;
+            grid-template-columns: auto auto;
+            column-gap: 100px;
+            padding-left: 100px;
+            margin-top: 90px;
+        }
+        .image,img{
+            height:520px;
+            width:330px;
+            padding-top: 20px;
+            padding-left: 100px;
+            
+        }
+        .hea{
+            margin-top:180px
+        }
+        #skill{
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        #html{
+            height:270px;
+            width:260px;
+            padding-left: 19%;
+
+        }
+        #css{
+            height: 300px;
+            width:300px
+        }
+        #python{
+            height:330px;
+            width:330px;
+        }
+        .hie{
+            font-size: 60px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:yellow;
+            margin-left:33%
+        }
+        .Getin{
+            font-size: 60px;
+            margin-left: 33%;
+            font-family:sans-serif;
+            font-weight: bold;
+            color:rgb(255, 187, 0);
+        }
+        .conlog{
+            margin-left: 25%;
+            margin-bottom: 300px;
+        }
+        #du{
+            height:100px;
+            width:90px;
+        }
+        #contact{
+            padding-top:100px;
+        }
+        .cont{
+            font-size: 40px;
+            font-family: serif;
+            margin-right: 4%;
+        }
+        #du:hover{
+            transform: scale(1.2,1.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="home">
+        <div class="header">
+            <h1 id="logo">AHMED</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div>
+                <h3>Hello!</h3>
+                <p>I'm <span id="name1">Ahmed</span></p>
+                <p id="name2">Thameem</p>
+                <p id="free">Front-end Developer</p>
+            </div>
+            <div class="image">
+                <img src="../new portfolio/logos/pic.png">
+            </div>
+        </div>
+    </div>
+    <div id="About">
+        <div class="hea">
+            <p>So, who am I ?</p>
+        </div>
+        <div class="content">
+            <p>I'm Ahmed Thameem, aspiring Computer Science and Engineering student with keen interest in programming. Eager to contribute my skills and knowledge to innovative projects and collaborate with like-minded professionals. Open to learning and adopting to new challenges in the ever-evolving tech landscape. Feel free to contact me for networking opportunities, or discussion about the exciting world of technology. As a passionate frontend developer, I specialize in crafting intuitive and visually appealing user interfaces. I thrive in collaborative environments, continuously learning and adapting to the ever-evolving landscape of web development.</p>
+        </div>
+    </div>
+    <div id="skill">
+        <p class="hie">SKILLS</p>
+        <img id="html" src="../new portfolio/logos/html.png" alt="HTML logo" title="html">
+        <img id="css" src="../new portfolio/logos/css logo.png" alt="CSS logo" title="css">
+        <img id="python" src="../new portfolio/logos/python-logo.png" alt="PYTHON logo" title="python">
+    </div>
+    <div id="contact">
+        <p class="Getin">GET IN</p>
+        <p class="Getin">TOUCH</p>
+        <p class="cont">
+            I'd love to hear from you! Wheather you have a project in mind, want to collaborate, or just want to say hello, feel free to reach out. You can contact me through the following ways:
+        </p>
+        <div class="conlog">
+            <a href="https://www.linkedin.com/in/ahmed-thameem-m-7b5013214" target="_blank"><img id="du"src="../new portfolio/logos/linkedin.png"></a>
+            <a href="https://www.instagram.com/invites/contact/?i=f3zp5tsriu3i&utm_content=tez33zt" target="_blank"><img id="du" src="../new portfolio/logos/instagram.png"><a>
+            <a href="mailto:ahamedthameem7@gmail.com" target="_blank"><img id="du" src="../new portfolio/logos/new.png"></a>
+            <a href="https://wa.me/8015316513" target="_blank"><img id="du" src="../new portfolio/logos/whatsapp.png"></a>
+            </div>
+    </div>
+</body>
+</html>
